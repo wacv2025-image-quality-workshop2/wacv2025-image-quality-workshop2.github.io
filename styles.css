@@ -58,7 +58,7 @@ h2 {
 /* styles.css */
 header {
     position: relative; /* Add this to establish a positioning context */
-    background-image: url('logo_hawaii_1.png'); /* Replace with your image file name */
+    background-image: url('logo_arizona.png'); /* Replace with your image file name */
     background-size: cover;
     background-position: center;
     color: rgba(255, 255, 255, 0.1);
