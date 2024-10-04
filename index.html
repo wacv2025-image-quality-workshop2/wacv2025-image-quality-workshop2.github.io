@@ -1,1 +1,418 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3rd Workshop on Image/Video/Audio Quality in Computer Vision and Generative AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>3rd Workshop on Image/Video/Audio Quality in Computer Vision and Generative AI</h1>
+            <p></p>
+            <p>Workshop Date: Jan 07, 2024</p>
+            <p>Location: WAIKOLOA, HAWAII</p>
+            <p>Held in conjunction with <a href="https://wacv2024.thecvf.com/">WACV2024</a></p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="menu-toggle">
+            <div class="icon"></div>
+        </div>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#Schedule">Schedule</a></li>
+            <li><a href="#Keynotes">Keynotes</a></li>
+            <li><a href="#Submission">Paper Submission</a></li>
+            <li><a href="#Competition">Competition</a></li>
+            <li><a href="#Organizer">Organizer</a></li>
+            <li><a href="#Information">Other information</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="Home" class="home-section">
+        <h2>Home</h2>
+        <p>Welcome to the 3rd Workshop on Image/Video/Audio Quality in Computer Vision and Generative AI!</p>
+        
+        <h3>Important Dates/Links: </h3>
+        <ul>
+            <li> Submission Deadline: <b style='color:red;'> <SPAN STYLE="text-decoration:line-through">31 October, 2023</span> -> 03 November, 2023</b>
+            <li> Submission Link: <a href="https://cmt3.research.microsoft.com/WVAQ2024">https://cmt3.research.microsoft.com/WVAQ2024</a>
+            <li> Acceptance Notification Deadline: <b style='color:red;'> <SPAN STYLE="text-decoration:line-through">10 November, 2023</span> -> 13 November, 2023</b>
+            <li> Camera Ready Papers Submission Deadline: <b style='color:red;'> <SPAN STYLE="text-decoration:line-through"> 19 November, 2023 </span> ->  November 17, 2023, at 11:59 PM Pacific Daylight Time.</b>
+            <li> Workshop Day: <b> 07 January, 2024 </b>
+            <li> Workshop Website: <a href="https://wacv2024-workshop-quality-iva.github.io/workshop-quality-iva/index.html">https://wacv2024-workshop-quality-iva.github.io/workshop-quality-iva/index.html</a>
+        </ul>
+
+<h3> Description: </h3>
+<p> Many machine learning tasks and computer vision algorithms are susceptible to image/video/audio quality artifacts. Nonetheless, most visual learning and vision systems assume high-quality image/video/audio as input. In reality, noises and distortions are common in image/video/audio capturing and acquisition process. Oftentimes, artifacts can be introduced in the video compression, transcoding, transmission, decoding, and/or rendering process. All of these quality issues play a critical role on the performance of learning algorithms, systems and applications, therefore could directly impact the customer experience.
+</p>
+        <h3> Topics: </h3>
+        <p>This workshop addresses topics related to image/video/audio quality in machine learning, computer vision, and generative AI. The topics include, but are not limited to:</p>
+        <ul>
+                        <li>Impact of image/video/audio quality in traditional machine learning and computer vision use cases such as object detection, segmentation, tracking, and recognition;
+                        <li>Analyze, model and learn the quality impact from image/video/audio acquisition, compression, transcoding, transmission, decoding, rendering, and/or display;
+                        <li>Techniques used to improve image/video/audio quality in terms of
+
+                        <ul>
+                            <li>brightening, color adjustment, sharpening, inpainting, deblurring, denoising, de-hazing, de-raining, demosaicing,
+                            <li>removing artifacts such as shadows, glare, and reflections, etc.,
+                            <li>resolution, frame rate, color gamut, dynamic range (SDR vs. HDR), etc.,
+                            <li>noise/echo cancellation, speech enhancement, etc.;
+                        </ul>
+                    </li>
+                    <li>Novel image/video/audio quality assessment methodologies: full reference, reduced-reference, and non-reference;
+                    <li>Impact of image/video/audio quality in multi-modal use cases;
+                    <li>Evaluate image/video/audio quality produced by generative AI;
+                    <li>Techniques to detect and mitigate audio/video synchronization issue;
+                    <li>Techniques to measure the quality consistency across different types of content in video (such as ads, movies, streamed content, etc.);
+                    <li>Datasets, statistics, and theory of image/video/audio quality;
+                    <li>Research, applications and system development of the above.
+
+        </ul>
+    </section>
+
+    <section id="Schedule" class="schedule-section">
+
+    <h2 style="text-align:center;">Schedule (Hawaii Local Time)</h2>
+    <h3 style="text-align:center;">Jan 7th, 2024, 8:30 AM – 4:30 PM</h3>
+    
+    <table>
+        <tr>
+            <th class="time-column">Time</th>
+            <th>Event</th>
+        </tr>
+        <tr>
+            <td>8:30-8:35am</td>
+            <td>Opening remarks (5mins)</td>
+        </tr>
+        <tr>
+            <td>8:35-9:25am</td>
+            <td>Keynote 1 (50mins) <br>
+                Keynote Speaker: Ivan V. Bajić, "Visual Coding for Humans and Machines"
+            </td>
+        </tr>
+        <tr>
+            <td>9:25-9:35am</td>
+            <td>Break (10mins)</td>
+        </tr>
+        <tr>
+            <td>9:35-10:35am</td>
+            <td>Oral presentation 1 (60mins)  <br>
+                &bull; Paper 2 (Long Presentation): Enhancing Surveillance Camera FOV Quality via Semantic Line Detection and
+                Classification with Deep Hough Transform<br>
+                &bull; Paper 6 (Long Presentation): AutoCaCoNet: Automatic Cartoon Colorization Network using self-attention
+                GAN, segmentation, and color correction<br>
+                &bull; Paper 22 (Short Presentation): HIDRO-VQA: High Dynamic Range Oracle for Video Quality Assessment<br>
+                &bull; Paper 4 (Short Presentation, virtual): A Diffusion-based Method for Multi-turn Compositional Image Generation<br>
+                &bull; Paper 5 (Short Presentation, virtual): Perceptual Synchronization Scoring of Dubbed Content using Phoneme-Viseme
+                Agreement<br>
+            </td>
+        </tr>
+        <tr>
+            <td>10:35-10:45am</td>
+            <td>Break (10mins)</td>
+        </tr>
+        <tr>
+            <td>10:45am-11:35am</td>
+            <td>Keynote 2 (50mins) <br>
+                Keynote Speaker: Kevin Bowyer, "Gray Face: Could Grayscale Be Better Than Color for Face Recognition?"
+            </td>
+        </tr>
+        <tr>
+            <td>11:35-11:45am</td>
+            <td>Break (10mins)</td>
+        </tr>
+        <tr>
+            <td>11:45-12:05pm</td>
+            <td>Lessons learned from challenge and invited talk from participant (20mins)</td>
+        </tr>
+        <tr>
+            <td>12:00-1:00pm</td>
+            <td>Lunch break</td>
+        </tr>
+        <tr>
+            <td>1:00-1:50pm</td>
+            <td>Keynote 3 (50 mins) <br>
+                Keynote Speaker: Andrew Segall, "Recent Advances in Deep Learning for Video Compression"
+            </td>
+        </tr>
+        <tr>
+            <td>1:50-2:00pm</td>
+            <td>Break (10mins)</td>
+        </tr>
+        <tr>
+            <td>2:00-2:50pm</td>
+            <td>Oral presentation 2 (50mins) <br>
+                &bull; Paper 7 (Long Presentation): Impact of Blur and Resolution on Demographic Disparities in 1-to-Many Facial
+                Identification<br>
+                &bull; Paper 11 (Long Presentation): ARNIQA: Learning Distortion Manifold for Image Quality Assessment<br>
+                &bull; Paper 1 (Short Presentation): Noise-free audio signal processing in noisy environment: a hardware and
+                algorithm solution<br>
+                &bull; Paper 9 (Short Presentation): RealPixVSR: Pixel-Level Visual Representation Informed Super-Resolution of
+                Real-World Videos<br>
+            </td>
+        </tr>
+        <tr>
+            <td>2:50-3:00pm</td>
+            <td>Break (10mins)</td>
+        </tr>
+        <tr>
+            <td>3:00-3:40</td>
+            <td>
+                Oral presentation 3 (40mins) <br>
+                &bull; Paper 12 (Long Presentation): DeepLIR: Attention-based approach for Mask-Based Lensless Image<br>
+                &bull; Paper 21 (Long Presentation): Super Efficient Neural Network for Compression Artifacts Reduction and Super
+                Resolution<br>
+                &bull; Paper 16 (Short Presentation, virtual): Consolidating separate degradations model via weights fusion and distillation<br>
+            </td>
+        </tr>
+        <tr>
+            <td>3:40-3:50pm</td>
+            <td>Break (10mins)</td>
+        </tr>
+        <tr>
+            <td>3:50-4:20pm</td>
+            <td>Oral presentation 4 (30mins) <br>
+                &bull; Paper 17 (Short Presentation): A Lightweight Generalizable Evaluation and Enhancement Framework for
+                Generative Models and Generated Samples<br>
+                &bull; Paper 24 (Short Presentation, virtual): Generating Point Cloud Augmentations via Class-Conditioned Diffusion Model<br>
+                &bull; Paper 27 (Short Presentation, virtual): Inflation with Diffusion: Efficient Temporal Adaptation for Text-to-Video
+                <!--&bull; Paper 10 (Short Presentation): Reference-based Restoration of Digitized Analog Videotapes<br> -->
+            </td>
+        </tr>
+        <tr>
+            <td>4:20-4:25pm</td>
+            <td>Closing remarks (5mins)</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td>
+        Zoom Information for virtual presentations:
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            <p>Topic: VAQ Workshop - WACV2024</p>
+            <p>Time: Jan 7, 2024 08:15 AM Hawaii</p>
+            
+            <p>Join Zoom Meeting</p>
+            <p>https://us06web.zoom.us/j/83363653781?pwd=bqXbapbhmjfwSI104k4GAf4sa9YS9X.1</p>
+            
+            <p> ID: 833 6365 3781</p>
+            <p>Passcode: 500582</p>
+            
+            <p>---</p>
+            
+            <p> tap mobile</p>
+            <p>+12532158782,,83363653781#,,,,*500582# US (Tacoma)</p>
+            <p>+12532050468,,83363653781#,,,,*500582# US</p>
+            
+            <p>---</p>
+            
+            <p>Dial by your location</p>
+            <p>• +1 253 215 8782 US (Tacoma)</p>
+            <p>• +1 253 205 0468 US</p>
+            <p>• +1 719 359 4580 US</p>
+            <p>• +1 346 248 7799 US (Houston)</p>
+            <p>• +1 669 444 9171 US</p>
+            <p>• +1 669 900 6833 US (San Jose)</p>
+            <p>• +1 929 436 2866 US (New York)</p>
+            <p>• +1 301 715 8592 US (Washington DC)</p>
+            <p>• +1 305 224 1968 US</p>
+            <p>• +1 309 205 3325 US</p>
+            <p>• +1 312 626 6799 US (Chicago)</p>
+            <p>• +1 360 209 5623 US</p>
+            <p>• +1 386 347 5053 US</p>
+            <p>• +1 507 473 4847 US</p>
+            <p>• +1 564 217 2000 US</p>
+            <p>• +1 646 931 3860 US</p>
+            <p>• +1 689 278 1000 US</p>
+            
+            <p>Meeting ID: 833 6365 3781</p>
+            <p>Passcode: 500582</p>
+            
+            <p>Find your local number: https://us06web.zoom.us/u/kd6Xbti4fC</p>
+        </td>
+            
+        </tr>
+    </table>
+</section>
+
+<section id="Keynotes">
+    <h2>Keynotes</h2>
+
+    <div>
+        <h3>Keynote Speaker: Ivan V. Bajić </h3>
+        
+        <!-- Speaker Photo -->
+        <img  class="circular--square" src="speaker_photo_1.jpg" alt="Keynote Speaker">
+
+        <!-- Talk Title -->
+        <h3>Title: "Visual Coding for Humans and Machines"</h3>
+
+        <!-- Abstract -->
+        <p>
+            <strong>Abstract:</strong> Visual content is increasingly being used for more than human viewing. For example, traffic video is automatically analyzed to count vehicles, detect traffic violations, estimate traffic intensity, and recognize license plates; images uploaded to social media are automatically analyzed to detect and recognize people, organize images into thematic collections, and so on; visual sensors on autonomous vehicles analyze captured signals to help the vehicle navigate, avoid obstacles, collisions, and optimize their movement. The above applications require continuous machine-based analysis of visual signals, with only occasional human viewing, which necessitates rethinking the traditional approaches for image and video compression. This talk is about coding visual information in ways that enable efficient usage by machine learning models, in addition to human viewing. We will touch upon recent rate-distortion results in this field, describe several designs for human-machine image and video coding, and briefly review related standardization efforts.
+        </p>
+
+        <!-- Bio -->
+        <p>
+            <strong>Bio:</strong> Ivan V. Bajić is a Professor of Engineering Science and co-director of the Multimedia Lab at Simon Fraser University, Canada. His research interests include signal processing and machine learning with applications to multimedia processing, compression, and collaborative intelligence. His group’s work has received several research awards, including the 2023 TCSVT Best Paper Award, conference paper awards at ICME 2012, ICIP 2019, MMSP 2022, and ISCAS 2023, and other recognitions (e.g., paper award finalist, top n%) at Asilomar, ICIP, ICME, ISBI, and CVPR. Ivan has served on the organizing and/or program committees of the main conferences in his field, and has received several awards in these roles, including Outstanding Reviewer Award (six times), Outstanding Area Chair Award, and Outstanding Service Award. He was on the editorial boards of the IEEE Transactions on Multimedia and IEEE Signal Processing Magazine, and is currently a Senior Area Editor of the IEEE Signal Processing Letters.
+        </p>
+    </div>
+
+    <hr>
+
+    <div>
+        <h3>Keynote Speaker: Kevin Bowyer </h3>
+        
+        <!-- Speaker Photo -->
+        <img  class="circular--square" src="speaker_photo_2.jpg" alt="Keynote Speaker">
+
+        <!-- Talk Title -->
+        <h3>Title: "Gray Face: Could Grayscale Be Better Than Color for Face Recognition?"</h3>
+
+        <!-- Abstract -->
+        <p>
+            <strong>Abstract:</strong> Informally, color images may be perceived as higher quality than grayscale.
+            All major face image datasets used by the research community contain RGB color images, and all deep CNN face matchers process color images.
+            But, do CNN face matchers that work with color face images achieve better accuracy than equivalent matchers working with equivalent grayscale images?
+            This talk examines this question in detail, and concludes that grayscale could in fact be better than color for deep CNN face matchers.
+        </p>
+
+        <!-- Bio -->
+        <p>
+            <strong>Bio:</strong> https://engineering.nd.edu/faculty/kevin-bowyer/
+        </p>
+    </div>
+
+    <hr>
+
+    <div>
+        <h3>Keynote Speaker: Andrew Segall</h3>
+        
+        <!-- Speaker Photo -->
+        <!-- <img  class="circular--square" src="speaker_photo_3.jpg" alt="Keynote Speaker"> -->
+
+        <!-- Talk Title -->
+        <h3>Title: "Recent Advances in Deep Learning for Video Compression"</h3>
+
+        <!-- Abstract -->
+        <p>
+            <strong>Abstract:</strong> The field of image and video quality is rapidly advancing due to improvements in computer vision, machine learning and neural network design.  However, in many cases, these quality methods are used to evaluate data that has been compressed. 
+             And the compression of these images and video is also advancing due to the same improvements in computer vision, machine learning, and neural networks.  In this talk, we survey recent developments in image and video coding with an emphasis on the use of deep learning.  
+             Both end-to-end solutions as well as enhancements to existing systems are included.  Additionally, recent efforts to create data sets sampling these methods are introduced.
+        </p>
+
+        <!-- Bio -->
+        <p>
+            <strong>Bio:</strong> Andrew Segall is currently the Head of Video Coding Standards at Amazon Prime Video. Previously, he was a Director at Sharp Labs of America, where he led the Department of Systems, Algorithms and Services while simultaneously holding the position of Distinguished Scientist at Sharp Corporation. 
+            He is an active participant in the international standardization community and has developed and contributed technology to the Versatile Video Coding (VVC), High Efficiency Video Coding (HEVC), Advanced Video Coding (H.264/AVC), and ATSC 3.0 projects. 
+            He currently serves as co-chair of the Neural Network Video Coding activity in the Joint Video Experts Team (JVET) of ITU-T SG16 Question 6 and ISO/IEC JTC1/SC29/WG5, HDR Chair for the MPEG Visual Quality Assessment Advisory Group (ISO/IEC JTC1/SC29/AG5), and represents Amazon on the Alliance for Open Media (AOM) Steering Committee.  
+            He received his B.S. and M.S. degrees in electrical engineering from Oklahoma State University, and his Ph.D. degree in electrical engineering from Northwestern University.
+        </p>
+    </div>
+
+</section>
+
+    <section id="Submission">
+        <h2>Submission Guidelines and Review Process:</h2>
+        <ul>
+            <li>Authors are encouraged to submit high-quality, original (i.e., not been previously published or accepted for publication in substantially similar form in any peer-reviewed venue including journal, conference or workshop) research.
+            <li>All submissions should follow the same template as for the main WACV2024 conference. Please refer to the WACV <a href="https://drive.google.com/file/d/1YaMHj7d_vmmBrnro-8kRv8CctpEizNIH/view">author kit </a>. 
+            <li>The main paper has an 8-page limit, references do not count toward this. There is no limit on the number of pages in the supplementary material. Only pdf files are accepted.
+            <li>Unlike the main conference(WACV2024), the review process for this workshop has only one round, and is single-blind. Authors do not have to be anonymized when submitting their work.
+            <li>Please submit your paper via this link: <a href="https://cmt3.research.microsoft.com/WVAQ2024">https://cmt3.research.microsoft.com/WVAQ2024</a>
+            <li>Authors of accepted papers will be notified via email by: <b>10 November, 2023 </b>
+        </ul>
+    </section>
+
+    <section id="Competition">
+    <h2>Competition</h2>
+    <p>
+        Alongside the workshop we are hosting a Grand Challenge on the identification of audiovisual synchronization (AV-Sync) errors.  
+        An AV-Sync error, the temporal misalignment of audio relative to the video, is a defect that can have a large impact on a viewer’s Quality of Experience. 
+        The Telecommunications Union’s Rec. ITU-T J.248: Requirements for operational monitoring of video-to-audio delay in the distribution of television programs (2008) 
+        used subjective experiments to determine participants could detect an AV-Sync error if the audio leads the video by greater than 45 ms and if the audio lags the video by greater than 125 ms.
+    </p>
+    <p>
+        The Grand Challenge will consist of two tasks:
+        <ul>
+            <li><b> AV-Sync Error Detection </b> - participants will make a binary prediction whether the audio is out-of-sync with the video. 
+                For more information please see: <a href="https://www.codabench.org/competitions/1541/"> https://www.codabench.org/competitions/1541/ </a></li>
+            <li><b> AV-Sync Error Measurement </b> - participants will predict a quantitative measure of the magnitude of the AV-Sync Error. 
+                For more information please see:  <a href="https://www.codabench.org/competitions/1543/"> https://www.codabench.org/competitions/1543/ </a></li>
+        </ul>
+    </p>
+    <p>
+        The two tasks will have a combined prize fund of <b style='color:red;'>$12000</b>. 
+        We invite participants to enter one or both of the tasks at the links above with the following timelines:
+        <ul>
+            <li><b>2023-10-11</b> - Release of the Training Dataset</li>
+            <li><b>2023-10-11</b> - Initial Submission Opens</li>
+            <li><b>2023-12-02 00:00:00 UTC</b> - Challenge Closes (Final Submissions: 1. to leaderboard and 2. summary report, model and weights)</li>
+            <li><b>2023-12-15</b> - Announcement of Awardees</li>
+            <li><b>2023-12-22</b> - Workshop Presentation Signup Deadline</li>
+            <li><b>2024-01-07</b> - WACV 2024 Workshop Day</li>
+        </ul>
+    </p>
+    </section>
+
+    <section id="Organizer">
+        <h2>Organizers</h2>
+        <div class="organizer-row">
+            <div class="organizer">
+                <img src="organizer_1.png" alt="Organizer 1">
+                <h3>Yarong Feng</h3>
+                <p>Amazon</p>
+            </div>
+            <div class="organizer">
+                <img src="organizer_2.png" alt="Organizer 2">
+                <h3>Yuan Ling</h3>
+                <p>Amazon</p>
+            </div>
+        </div>
+        <div class="organizer-row">
+            <div class="organizer">
+                <img src="organizer_3.jpeg" alt="Organizer 3">
+                <h3>Joe Liu</h3>
+                <p>Amazon</p>
+            </div>
+            <div class="organizer">
+                <img src="organizer_4.png" alt="Organizer 4">
+                <h3>Hai Wei</h3>
+                <p>Amazon</p>
+            </div>
+            <div class="organizer">
+                <img src="organizer_5.png" alt="Organizer 5">
+                <h3>David Higham</h3>
+                <p>Amazon</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Information">
+        <h2>Information</h2>
+        <p>TBD</p>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, please contact us at <a href="mailto:wacv2024-ws-iva-quality@amazon.com">wacv2024-ws-iva-quality@amazon.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 3rd Workshop on Image/Video/Audio Quality in Computer Vision and Generative AI. All rights reserved.</p>
+    </footer>
+</body>
+</html>
